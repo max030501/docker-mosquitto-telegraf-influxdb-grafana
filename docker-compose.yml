@@ -30,11 +30,11 @@ services:
     user: root
     environment:
      - GF_SMTP_ENABLED=true
-     - GF_SMTP_HOST=smtp.gmail.com:465
-     - GF_SMTP_USER=max0305111@gmail.com
+     - GF_SMTP_HOST=smtp.rambler.ru:465
+     - GF_SMTP_USER=max030511@rambler.ru
      - GF_SMTP_PASSWORD=R2WQsTPFG
      - GF_SMTP_SKIP_VERIFY=false
-     - GF_SMTP_FROM_ADDRESS=max0305111@gmail.ru
+     - GF_SMTP_FROM_ADDRESS=max030511@rambler.ru
     depends_on:
       - influxdb
     links:
